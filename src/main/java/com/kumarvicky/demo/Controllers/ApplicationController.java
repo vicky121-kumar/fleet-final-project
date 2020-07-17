@@ -11,5 +11,15 @@ public class ApplicationController {
     {
         return "index";
     }
+    @GetMapping("/login")
+    public String Login()
+    {
+        return "login";
+    }
+    @GetMapping("/logout")
+    public String Logout()
+    {
+        return "login";
+    }
 
 }

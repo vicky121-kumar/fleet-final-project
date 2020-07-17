@@ -12,6 +12,7 @@ public class FleetappApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(FleetappApplication.class, args);
+
 	}
 
 }

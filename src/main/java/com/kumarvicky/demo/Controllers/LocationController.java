@@ -23,7 +23,6 @@ public class LocationController {
     private StateService stateService;
     @Autowired
     private LocationService locationService;
-    //StateService locationService=new StateService();
     @GetMapping("/location")
     public String Home(Model model)
     {
